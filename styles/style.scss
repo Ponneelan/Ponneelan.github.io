@@ -1,0 +1,60 @@
+@import'./variables';
+
+body {
+    .cus-nav {
+        padding: $padding 100px;
+        background-color: $secondary-color !important;
+
+        .cus-btn {
+            font-size: 21px;
+            border-radius: 50px;
+            letter-spacing: 2px;
+            color: $btn-color;
+            border: $btn-border;
+            background-color: $btn-bgcolor;
+        }
+
+        .cus-btn:hover {
+            background-color: $btn-color;
+            color: $btn-bgcolor;
+            border: $btn-border;
+        }
+    }
+
+    .profile-blcok {
+        margin-top: $margin-top;
+        padding: $padding;
+
+        .title,
+        .title-desc,
+        .profile-photo {
+            margin: 20px 0px;
+        }
+    }
+
+    .about-part {
+        .img-part {
+            img {
+                width: 100%;
+                height: 100%;
+                padding: 5% 10% 0 10%;
+            }
+        }
+        .my-self{
+            padding: 0px 25%;
+            color: $btn-bgcolor;
+            background-color: $btn-color;
+            padding: 10% 25%;
+            h3{
+                padding: 20px 0px;
+            }
+            p{
+                letter-spacing: 2px;
+                line-height: 2;
+            }
+        }
+    }
+    .what-i-do{
+        margin-top: -14%;
+    }
+}
