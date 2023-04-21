@@ -113,4 +113,18 @@ body {
             border-left: $profile-border;
         }
     }
+
+    .recent-work {
+        padding: 150px 70px 70px 50px;
+
+        .projects-collections {
+            .project {
+                background-color: blue;
+                height: 300px;
+                width: 300px;
+                margin: 20px;
+            }
+        }
+    }
+
 }

@@ -85,4 +85,13 @@ body .what-i-do .volunteer {
 body .what-i-do .full-stack-dev {
   border-right: 1px solid gray;
   border-left: 1px solid gray;
+}
+body .recent-work {
+  padding: 150px 70px 70px 50px;
+}
+body .recent-work .projects-collections .project {
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */
