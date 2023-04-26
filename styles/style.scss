@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    .cus-nav{
+        padding: 15px 100px;
+        background-color: transparent !important;
+        .navbar-brand{
+            .name{
+                background-color: blue;
+                border-radius: 50px;
+                height: 40px;
+                width: 40px;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                font-weight: bold;
+                padding: 1px 14px;
+                font-size: 26px;
+            }
+            .name::after{
+                content: 'onneelan';
+                color: black;
+            }
+        }
+        .navbar-nav{
+            li{
+                padding: 0px 20px;
+            }
+        }
+    }
+
+}
