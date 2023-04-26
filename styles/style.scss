@@ -1,10 +1,16 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
-    .cus-nav{
+
+    .cus-nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
         padding: 15px 100px;
         background-color: transparent !important;
-        .navbar-brand{
-            .name{
+
+        .navbar-brand {
+            .name {
                 background-color: blue;
                 border-radius: 50px;
                 height: 40px;
@@ -16,16 +22,63 @@ body{
                 padding: 1px 14px;
                 font-size: 26px;
             }
-            .name::after{
+
+            .name::after {
                 content: 'onneelan';
                 color: black;
             }
         }
-        .navbar-nav{
-            li{
+
+        .navbar-nav {
+            li {
                 padding: 0px 20px;
             }
         }
     }
+
+    .main {
+        .half {
+            height: 100vh;
+        }
+
+        .main-left {
+            background-color: #3e64ff;
+            opacity: 0.1;
+
+        }
+
+        .main-right {
+            background-color: #fff;
+
+            .content {
+                margin-left: -55%;
+
+                #hey {
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    font-weight: 800;
+                    color: #3e64ff;
+                    letter-spacing: 4px;
+                }
+
+                #name {
+                    font-size: 60px;
+                    font-weight: 800;
+                    margin: 25px 0px;
+                }
+
+                #desc {
+                    font-weight: 800;
+
+                    span {
+                        color: #3e64ff;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+        }
+    }
+
 
 }

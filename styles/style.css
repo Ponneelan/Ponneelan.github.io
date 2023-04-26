@@ -2,6 +2,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 body .cus-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 15px 100px;
   background-color: transparent !important;
 }
@@ -23,4 +27,36 @@ body .cus-nav .navbar-brand .name::after {
 }
 body .cus-nav .navbar-nav li {
   padding: 0px 20px;
+}
+body .main .half {
+  height: 100vh;
+}
+body .main .main-left {
+  background-color: #3e64ff;
+  opacity: 0.1;
+}
+body .main .main-right {
+  background-color: #fff;
+}
+body .main .main-right .content {
+  margin-left: -55%;
+}
+body .main .main-right .content #hey {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  color: #3e64ff;
+  letter-spacing: 4px;
+}
+body .main .main-right .content #name {
+  font-size: 60px;
+  font-weight: 800;
+  margin: 25px 0px;
+}
+body .main .main-right .content #desc {
+  font-weight: 800;
+}
+body .main .main-right .content #desc span {
+  color: #3e64ff;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
