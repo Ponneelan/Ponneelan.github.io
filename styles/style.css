@@ -1,7 +1,14 @@
-body {
-  font-family: "Poppins", sans-serif;
+.block {
+  height: 100vh;
 }
-body .cus-nav {
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 300;
+}
+body #home .cus-nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -9,7 +16,7 @@ body .cus-nav {
   padding: 15px 100px;
   background-color: transparent !important;
 }
-body .cus-nav .navbar-brand .name {
+body #home .cus-nav .navbar-brand .name {
   background-color: blue;
   border-radius: 50px;
   height: 40px;
@@ -21,42 +28,64 @@ body .cus-nav .navbar-brand .name {
   padding: 1px 14px;
   font-size: 26px;
 }
-body .cus-nav .navbar-brand .name::after {
+body #home .cus-nav .navbar-brand .name::after {
   content: "onneelan";
   color: black;
 }
-body .cus-nav .navbar-nav li {
+body #home .cus-nav .navbar-nav li {
   padding: 0px 20px;
 }
-body .main .half {
+body #home .main .half {
   height: 100vh;
 }
-body .main .main-left {
+body #home .main .main-left {
   background-color: #3e64ff;
   opacity: 0.1;
 }
-body .main .main-right {
+body #home .main .main-right {
   background-color: #fff;
 }
-body .main .main-right .content {
+body #home .main .main-right .content {
   margin-left: -55%;
 }
-body .main .main-right .content #hey {
+body #home .main .main-right .content #hey {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
   color: #3e64ff;
   letter-spacing: 4px;
 }
-body .main .main-right .content #name {
+body #home .main .main-right .content #name {
   font-size: 60px;
   font-weight: 800;
   margin: 25px 0px;
 }
-body .main .main-right .content #desc {
+body #home .main .main-right .content #desc {
   font-weight: 800;
 }
-body .main .main-right .content #desc span {
+body #home .main .main-right .content #desc span {
   color: #3e64ff;
   text-decoration: underline;
+}
+body #about .about-block .about-left .img-block {
+  padding: 25px 80px;
+}
+body #about .about-block .about-left .img-block img {
+  height: 300px;
+  width: 300px;
+}
+body #about .about-block .about-right {
+  padding: 150px 120px 150px 80px;
+  height: 100%;
+}
+body #about .about-block .about-right .about-content {
+  color: black;
+  margin: 40px 0px;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em !important;
+  font-weight: 600;
+}
+body #about .about-block .about-right .head {
+  font-size: 40px;
 }/*# sourceMappingURL=style.css.map */

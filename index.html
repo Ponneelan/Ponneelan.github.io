@@ -1,55 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Ponneelan portfolio</title>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light cus-nav">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><div class="name">P</div></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse " id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-    <div class="col-12 d-flex  main">
-      <div class="col-6 half main-left"></div>
-      <div class="col-6 d-flex align-items-center justify-center text-center half  main-right">
-        <div class="content">
-          <p id="hey">HEY! I AM</p>
-          <h1 id="name">Ponneelan Ramanathan</h1>
-          <h2 id="desc">I'm a <span>Full Stack Developer</span></h2>
+  </head>
+  <body>
+    <section id="home">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light cus-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><div class="name">P</div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="col-12 d-flex main">
+        <div class="col-6 half main-left"></div>
+        <div class="col-6 d-flex align-items-center justify-center text-center
+          half main-right">
+          <div class="content">
+            <p id="hey">HEY! I AM</p>
+            <h1 id="name">Ponneelan Ramanathan</h1>
+            <h2 id="desc">I'm a <span>Full Stack Developer</span></h2>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="about">
+      <div class="col-12 d-flex align-items-center justify-content-center about-block block">
+        <div class="col-6 d-flex align-items-center justify-content-center about-left ">
+          <div class="img-block">
+            <img src="./Assets/images/profile.png" alt="">
+          </div>
+        </div>
+        <div class="col-6 about-right">
+          <p class="about-content">ABOUT ME</p>
+          <h2 class="about-content head">PERSONAL DETAILS</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quam deserunt, recusandae minus aperiam assumenda natus animi iure excepturi suscipit doloremque, in, qui expedita? Fuga minus impedit dolorem accusantium et repellendus architecto nemo beatae eius. Corporis quia tenetur debitis dolorum?</p>
         </div>
       </div>
-      
-    </div>
-    
-</body>
+    </section>
+  </body>
 </html>
