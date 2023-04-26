@@ -2,6 +2,12 @@
   height: 100vh;
 }
 
+.title-block .title {
+  color: black;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
 body {
   font-family: "Poppins", sans-serif !important;
   color: #777777;
@@ -68,14 +74,15 @@ body #home .main .main-right .content #desc span {
   text-decoration: underline;
 }
 body #about .about-block .about-left .img-block {
+  box-shadow: 1px 3px 15px 1px;
   padding: 25px 80px;
 }
 body #about .about-block .about-left .img-block img {
-  height: 300px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
 }
 body #about .about-block .about-right {
-  padding: 150px 120px 150px 80px;
+  padding: 100px 120px 150px 80px;
   height: 100%;
 }
 body #about .about-block .about-right .about-content {
@@ -88,4 +95,34 @@ body #about .about-block .about-right .about-content {
 }
 body #about .about-block .about-right .head {
   font-size: 40px;
+}
+body #knowns .technologies {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+body #knowns .technologies .cards .img-box {
+  margin-bottom: 20px;
+}
+body #knowns .technologies .cards .img-box img {
+  height: 100px;
+}
+body #knowns .technologies .cards h3 {
+  color: black;
+}
+body #projects .projects-items {
+  margin: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body #projects .projects-items a {
+  position: relative;
+}
+body #projects .projects-items a img {
+  height: 250px;
+  width: 300px;
+}
+body #projects .projects-items a .link {
+  position: absolute;
+  right: 10;
+  top: 10;
 }/*# sourceMappingURL=style.css.map */

@@ -1,12 +1,23 @@
-.block{
+.block {
     height: 100vh;
 }
+
+.title-block {
+    .title {
+        color: black;
+        font-weight: 600;
+        margin: 20px 0px;
+    }
+}
+
 body {
     font-family: 'Poppins', sans-serif !important;
     color: #777777;
     font-size: 14px;
-    font-weight: 300;;
-    #home{
+    font-weight: 300;
+    ;
+
+    #home {
         .cus-nav {
             position: absolute;
             top: 0;
@@ -14,7 +25,7 @@ body {
             right: 0;
             padding: 15px 100px;
             background-color: transparent !important;
-    
+
             .navbar-brand {
                 .name {
                     background-color: blue;
@@ -28,37 +39,37 @@ body {
                     padding: 1px 14px;
                     font-size: 26px;
                 }
-    
+
                 .name::after {
                     content: 'onneelan';
                     color: black;
                 }
             }
-    
+
             .navbar-nav {
                 li {
                     padding: 0px 20px;
                 }
             }
         }
-    
+
         .main {
             .half {
                 height: 100vh;
             }
-    
+
             .main-left {
                 background-color: #3e64ff;
                 opacity: 0.1;
-    
+
             }
-    
+
             .main-right {
                 background-color: #fff;
-    
+
                 .content {
                     margin-left: -55%;
-    
+
                     #hey {
                         text-transform: uppercase;
                         font-size: 16px;
@@ -66,53 +77,101 @@ body {
                         color: #3e64ff;
                         letter-spacing: 4px;
                     }
-    
+
                     #name {
                         font-size: 60px;
                         font-weight: 800;
                         margin: 25px 0px;
                     }
-    
+
                     #desc {
                         font-weight: 800;
-    
+
                         span {
                             color: #3e64ff;
                             text-decoration: underline;
                         }
                     }
-    
+
                 }
             }
         }
-    
+
     }
-    #about{
-        .about-block{
-            .about-left{
-                .img-block{
-                    // box-shadow: 2px 2px 2px 2px #888888;
+
+    #about {
+        .about-block {
+            .about-left {
+                .img-block {
+                    box-shadow: 1px 3px 15px 1px;
                     padding: 25px 80px;
-                    img{
-                        height: 300px;
-                        width: 300px;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
                     }
                 }
             }
-            .about-right{
-                padding:  150px 120px 150px 80px;
+
+            .about-right {
+                padding: 100px 120px 150px 80px;
                 height: 100%;
-                .about-content{
+
+                .about-content {
                     color: black;
                     margin: 40px 0px;
                     font-family: "Poppins", sans-serif;
                     color: #222222;
                     line-height: 1.2em !important;
                     font-weight: 600;
-                    
+
                 }
-                .head{
+
+                .head {
                     font-size: 40px;
+                }
+            }
+        }
+    }
+
+    #knowns {
+
+        .technologies {
+            margin-top: 50px;
+            margin-bottom: 200px;
+
+            .cards {
+                .img-box {
+                    margin-bottom: 20px;
+
+                    img {
+                        height: 100px;
+                    }
+                }
+
+                h3 {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    #projects {
+        .projects-items {
+            margin:  20px;
+            
+            width: fit-content;
+            
+            a {
+                position: relative;
+                img {
+                    height: 250px;
+                    width: 300px;
+                }
+                .link{
+                    position: absolute;
+                    right: 10;
+                    top: 10;
                 }
             }
         }
