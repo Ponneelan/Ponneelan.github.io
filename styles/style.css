@@ -111,18 +111,22 @@ body #knowns .technologies .cards h3 {
 }
 body #projects .projects-items {
   margin: 20px;
+  position: relative;
   width: -moz-fit-content;
   width: fit-content;
 }
-body #projects .projects-items a {
-  position: relative;
+body #projects .projects-items div {
+  height: 300px;
+  width: 350px;
+  background-image: url("/Assets/Icons/weather.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-body #projects .projects-items a img {
-  height: 250px;
-  width: 300px;
-}
-body #projects .projects-items a .link {
+body #projects .projects-items .external-link {
   position: absolute;
-  right: 10;
-  top: 10;
+  top: 10px;
+  right: 10px;
+}
+body #projects .projects-items .external-link .link {
+  height: 30px;
 }/*# sourceMappingURL=style.css.map */

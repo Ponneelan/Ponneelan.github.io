@@ -159,21 +159,25 @@ body {
     #projects {
         .projects-items {
             margin:  20px;
-            
+            position: relative;
             width: fit-content;
-            
-            a {
-                position: relative;
-                img {
-                    height: 250px;
-                    width: 300px;
-                }
+            div{
+                height:300px;
+                width:350px;
+                background-image: url('/Assets/Icons/weather.png');
+                background-size:cover;
+                background-repeat: no-repeat;
+            }
+            .external-link{
+                // display: none;
+                position: absolute;
+                top: 10px;
+                right: 10px;
                 .link{
-                    position: absolute;
-                    right: 10;
-                    top: 10;
+                    height: 30px;
                 }
             }
+           
         }
     }
 
