@@ -110,23 +110,46 @@ body #knowns .technologies .cards h3 {
   color: black;
 }
 body #projects .projects-items {
-  margin: 20px;
+  margin: 20px 30px;
   position: relative;
   width: -moz-fit-content;
   width: fit-content;
 }
-body #projects .projects-items div {
-  height: 300px;
-  width: 350px;
-  background-image: url("/Assets/Icons/weather.png");
+body #projects .projects-items .project-image-box {
+  height: 250px;
+  width: 300px;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat !important;
 }
 body #projects .projects-items .external-link {
+  display: none;
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 0px;
 }
 body #projects .projects-items .external-link .link {
   height: 30px;
+  fill: #fff;
+}
+body #projects .projects-items .project-title {
+  margin-top: 35px;
+}
+body #projects .projects-items .project-title h3 {
+  color: black;
+}
+body #projects .item-1 .project-image-box {
+  background-image: url("/Assets/images/weather.gif");
+}
+body #projects .item-2 .project-image-box {
+  background-image: url("/Assets/images/portfolio.webp");
+}
+body #projects .item-3 .project-image-box {
+  background-image: url("/Assets/images/clone.jpg");
+}
+body #projects .projects-items:hover .external-link {
+  display: block;
+}
+body #projects .projects-items:hover .external-link .link path {
+  fill: white;
 }/*# sourceMappingURL=style.css.map */
