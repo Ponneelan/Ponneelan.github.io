@@ -97,7 +97,7 @@ body #about .about-block .about-right .head {
   font-size: 40px;
 }
 body #knowns {
-  padding: 150px 0px;
+  padding: 100px 0px;
 }
 body #knowns .technologies {
   margin-top: 50px;
@@ -111,6 +111,9 @@ body #knowns .technologies .cards .img-box img {
 }
 body #knowns .technologies .cards h3 {
   color: black;
+}
+body #projects {
+  padding: 100px 0px;
 }
 body #projects .projects-items {
   margin: 20px 30px;
