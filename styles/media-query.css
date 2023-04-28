@@ -3,6 +3,9 @@
     height: -moz-fit-content !important;
     height: fit-content !important;
   }
+  .title-block .sub-title {
+    padding: 0px 25px;
+  }
   #home .cus-nav {
     padding: 10px !important;
   }
@@ -65,5 +68,8 @@
   #projects .projects-items .project-image-box {
     height: 200px !important;
     width: 250px !important;
+  }
+  #projects .projects-items .external-link {
+    display: block !important;
   }
 }/*# sourceMappingURL=media-query.css.map */
