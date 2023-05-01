@@ -41,35 +41,23 @@ body #home .cus-nav .navbar-brand .name::after {
 body #home .cus-nav .navbar-nav li {
   padding: 0px 20px;
 }
-body #home .main .half {
+body #home .main {
   height: 100vh;
+  background-image: linear-gradient(to right, #EDEAFE 0%, #EDEAFE 50%, #fff 50%, #fff 100%);
 }
-body #home .main .main-left {
-  background-color: #3e64ff;
-  opacity: 0.1;
-}
-body #home .main .main-right {
-  background-color: #fff;
-}
-body #home .main .main-right .content {
-  margin-left: -55%;
-}
-body #home .main .main-right .content #hey {
+body #home .main .content #hey {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
   color: #3e64ff;
   letter-spacing: 4px;
 }
-body #home .main .main-right .content #name {
+body #home .main .content #name {
   font-size: 60px;
   font-weight: 800;
   margin: 25px 0px;
 }
-body #home .main .main-right .content #desc {
-  font-weight: 800;
-}
-body #home .main .main-right .content #desc span {
+body #home .main .content #desc span {
   color: #3e64ff;
   text-decoration: underline;
 }
@@ -77,6 +65,11 @@ body #about .about-block .about-left .img-block {
   box-shadow: 1px 3px 15px 1px;
   padding: 25px 17px;
   border-radius: 50px;
+}
+@media (min-width: 320px) and (max-width: 800px) {
+  body #about .about-block .about-left .img-block {
+    margin: 30px;
+  }
 }
 body #about .about-block .about-left .img-block img {
   height: 100%;
@@ -125,6 +118,7 @@ body #project .project-list .project-cards .img-content {
 }
 body #project .project-list .project-cards .img-content img {
   transition: all ease-in-out 0.5s;
+  width: inherit;
 }
 body #project .project-list .project-cards .img-content:hover img {
   cursor: pointer;

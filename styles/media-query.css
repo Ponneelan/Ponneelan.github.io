@@ -1,75 +1,78 @@
-@media (min-width: 220px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 800px) {
   .block {
-    height: -moz-fit-content !important;
-    height: fit-content !important;
-  }
-  .title-block .sub-title {
-    padding: 0px 25px;
-  }
-  #home .cus-nav {
-    padding: 10px !important;
-  }
-  #home .main {
-    display: block !important;
-  }
-  #home .main .main-left {
-    display: none;
-  }
-  #home .main .main-right {
-    width: 100%;
-  }
-  #home .main .main-right .content {
-    margin-left: 0 !important;
     padding: 20px;
   }
-  #home .main .main-right .content #name {
-    font-size: 35px !important;
+  .sub-title {
+    padding: 0px 25px;
   }
-  #home .main .main-right .content #desc {
-    margin-top: 30px !important;
-    font-size: 20px;
+  .cus-nav {
+    padding: 10px !important;
   }
-  #about .about-block {
+  .main {
+    height: 80vh !important;
+    background-color: #EDEAFE !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  #name {
+    font-size: 40px !important;
+  }
+  #desc {
+    font-size: 22px;
+  }
+  .about-block {
     display: block !important;
     padding: 25px;
     height: -moz-fit-content !important;
     height: fit-content !important;
   }
-  #about .about-block .about-left {
+  .about-left {
     width: 100%;
     height: -moz-fit-content !important;
     height: fit-content !important;
   }
-  #about .about-block .about-left .img-block {
-    border-radius: 40px;
+  .img-block {
+    border-radius: 25px !important;
+    margin: 30px !important;
   }
-  #about .about-block .about-right {
+  .about-right {
     padding: 10px !important;
     text-align: center !important;
     width: 100%;
     height: -moz-fit-content !important;
     height: fit-content !important;
   }
-  #about .about-block .about-right .head {
+  .head {
     font-size: 25px !important;
   }
   #knowns {
-    padding: 10px;
+    padding: 50px 30px 0px !important;
   }
-  #knowns .title-block .title {
+  #project {
+    padding: 0px 30px 50px !important;
+  }
+  .title {
     font-size: 30px;
   }
-  #knowns .technologies {
+  .technologies {
     display: block !important;
   }
-  #knowns .technologies .cards {
+  .cards {
     margin: 30px 0px !important;
   }
-  #projects .projects-items .project-image-box {
+  .project-desc {
+    padding: 0px 0px !important;
+  }
+  .project-image-box {
     height: 200px !important;
     width: 250px !important;
   }
-  #projects .projects-items .external-link {
+  .external-link {
     display: block !important;
+  }
+  .img-content {
+    height: 185px !important;
+    width: 275px !important;
   }
 }/*# sourceMappingURL=media-query.css.map */
