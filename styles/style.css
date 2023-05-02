@@ -138,4 +138,11 @@ body #project .project-list .project-cards .project-desc .project-subtitle {
 body #message-form .msg-row {
   margin-right: 0 !important;
   padding: 50px;
+}
+body #message-form .map-div {
+  padding: 0px 30px;
+}
+body #message-form .map-div #map {
+  height: 300px;
+  width: 900px;
 }/*# sourceMappingURL=style.css.map */

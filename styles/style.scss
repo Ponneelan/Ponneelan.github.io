@@ -183,5 +183,12 @@ body {
         margin-right: 0 !important;
         padding: 50px;
     }
+    .map-div{
+        padding: 0px 30px;
+        #map{
+            height: 300px;
+            width: 900px;
+        }
+    }
    }
 }

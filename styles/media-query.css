@@ -76,4 +76,13 @@
     height: 185px !important;
     width: 275px !important;
   }
+  #map {
+    position: relative !important;
+    height: 200px !important;
+    width: -webkit-fill-available !important;
+    margin: 50px 0px !important;
+  }
+  .map-div {
+    padding: 0px !important;
+  }
 }/*# sourceMappingURL=media-query.css.map */
