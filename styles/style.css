@@ -134,4 +134,7 @@ body #project .project-list .project-cards .project-desc .project-title {
 }
 body #project .project-list .project-cards .project-desc .project-subtitle {
   padding: 0px 30px;
+}
+body #message-form .msg-row {
+  margin-right: 0 !important;
 }/*# sourceMappingURL=style.css.map */
