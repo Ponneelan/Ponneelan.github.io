@@ -196,12 +196,23 @@ body {
         .msg-row {
             margin-right: 0 !important;
             padding: 50px;
+            .img-div{
+                img{
+                    height: 300px;
+                    width: 550px;
+                }
+            }
+            .form-div{
+                padding: 0px 75px
+            }
         }
+        
     }
 
     #address {
         padding: 50px;
         .address-block {
+            margin: 50px 0px;
             .address-card {
                 background-color: white;
                 text-align: center;

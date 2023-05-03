@@ -8,6 +8,9 @@
   .cus-nav {
     padding: 10px !important;
   }
+  .nav-btn {
+    display: none;
+  }
   .main {
     height: 80vh !important;
     background-image: none !important;
@@ -93,5 +96,13 @@
   }
   .add-desc {
     font-size: 12px !important;
+  }
+  .form-div {
+    padding: 10px !important;
+    margin-top: 50px !important;
+  }
+  .img-div img {
+    height: 200px !important;
+    width: 300px !important;
   }
 }/*# sourceMappingURL=media-query.css.map */
