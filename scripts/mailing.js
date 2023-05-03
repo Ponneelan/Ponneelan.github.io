@@ -13,11 +13,13 @@ form.addEventListener('submit', (event) => {
     .then(res => res.json())
     .then(data => {
         console.log(data);
-        submit_msg.innerHTML = data['message'];
+        let emoji = data['code'] == 200 ?`<i class="bi bi-emoji-smile"></i>`: 
+        `<i class="bi bi-emoji-frown"></i>`;
+        submit_msg.innerHTML = data['message']+" "+emoji;
     }).then(()=>{
-        setTimeout(5000,()=>{
-            submit_msg.innerHTML = '';
-        })
+        setTimeout(()=>{
+            submit_msg.innerHTML = ''
+        },500000);
     });
 });
 

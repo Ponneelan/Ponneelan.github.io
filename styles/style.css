@@ -148,6 +148,11 @@ body #message-form .msg-row .form-div {
 }
 body #message-form .msg-row .form-div #submit-msg {
   margin-right: 50px;
+  font-size: 15px;
+}
+body #message-form .msg-row .form-div #submit-msg i {
+  color: darkorchid;
+  font-size: 21px;
 }
 body #address {
   padding: 50px;
