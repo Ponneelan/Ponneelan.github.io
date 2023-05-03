@@ -85,4 +85,13 @@
   .map-div {
     padding: 0px !important;
   }
+  #address {
+    padding: 50px 30px !important;
+  }
+  .add-icons i::before {
+    font-size: 20px !important;
+  }
+  .add-desc {
+    font-size: 12px !important;
+  }
 }/*# sourceMappingURL=media-query.css.map */

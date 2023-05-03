@@ -139,10 +139,49 @@ body #message-form .msg-row {
   margin-right: 0 !important;
   padding: 50px;
 }
-body #message-form .map-div {
+body #address {
+  padding: 50px;
+}
+body #address .address-block .address-card {
+  background-color: white;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 25px;
+  padding: 20px 30px;
+  box-shadow: 1px 3px 15px 1px;
+}
+body #address .address-block .address-card h3 {
+  color: black;
+  font-size: 25px;
+}
+body #address .address-block .address-card .tiles .tile {
+  padding: 10px 0px;
+  margin: 10px 0px;
+  font-size: 14px;
+}
+body #address .address-block .address-card .tiles .tile .add-icons {
+  margin-right: 30px;
+}
+body #address .address-block .address-card .tiles .tile .add-icons i {
+  font-size: 25px;
+}
+body #address .address-block .address-card .tiles .tile .add-decs {
+  font-size: 15px;
+}
+body #address .address-block .address-card .social-icons a {
+  color: gray;
+}
+body #address .address-block .address-card .social-icons a i {
+  font-size: 35px;
+  margin: 0px 10px;
+}
+body #address .address-block .address-card .social-icons a i:hover {
+  color: blue;
+}
+body #address .map-div {
   padding: 0px 30px;
 }
-body #message-form .map-div #map {
-  height: 300px;
+body #address .map-div #map {
+  height: 367px;
   width: 900px;
 }/*# sourceMappingURL=style.css.map */

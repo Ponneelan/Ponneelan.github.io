@@ -1,6 +1,4 @@
-let btn = document.getElementById('form-btn');
 let form = document.getElementById('msg-form');
-
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
