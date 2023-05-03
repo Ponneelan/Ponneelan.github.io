@@ -146,6 +146,9 @@ body #message-form .msg-row .img-div img {
 body #message-form .msg-row .form-div {
   padding: 0px 75px;
 }
+body #message-form .msg-row .form-div #submit-msg {
+  margin-right: 50px;
+}
 body #address {
   padding: 50px;
 }
