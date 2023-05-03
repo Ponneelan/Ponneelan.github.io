@@ -1,16 +1,18 @@
 let btn = document.getElementById('form-btn');
-btn.addEventListener('click', sentMail);
+let form = document.getElementById('msg-form');
 
-function sentMail() {
-    let name = document.getElementById('form-name').value;
-    let mailID = document.getElementById('form-mail').value;
-    let subject = document.getElementById('form-sub').value;
-    let message = document.getElementById('form-msg').value;
 
-    fetch(`http://localhost:8000?mail=${mailID}&name=${name}&subject=${subject}&message=${message}`).then(res=>res.json()).then(data=>{
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(form);
+    const data = {};
+
+    for (const [key, value] of formData.entries()) {
+        data[key] = value;
+    }
+    fetch(`http://localhost:8000?mail=${data['mail']}&name=${data['name']}&subject=${data['subject']}&message=${data['messge']}`).then(res => res.json()).then(data => {
         console.log(data);
     });;
-
-}
-
+});
 
