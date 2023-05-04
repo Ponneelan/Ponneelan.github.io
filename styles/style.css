@@ -202,4 +202,11 @@ body #address .map-div {
 body #address .map-div #map {
   height: 367px;
   width: 900px;
+}
+body footer .footer-div {
+  height: 70px;
+  background-color: #EDEAFE;
+}
+body footer .footer-div p {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

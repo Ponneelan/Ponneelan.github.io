@@ -9,7 +9,7 @@ form.addEventListener('submit', (event) => {
     for (const [key, value] of formData.entries()) {
         data[key] = value;
     }
-    fetch(`http://localhost:8000?mail=${data['mail']}&name=${data['name']}&subject=${data['subject']}&message=${data['messge']}`)
+    fetch(`http://localhost:3000/sentmail?mail=${data['mail']}&name=${data['name']}&subject=${data['subject']}&message=${data['messge']}`)
     .then(res => res.json())
     .then(data => {
         console.log(data);
@@ -19,7 +19,7 @@ form.addEventListener('submit', (event) => {
     }).then(()=>{
         setTimeout(()=>{
             submit_msg.innerHTML = ''
-        },500000);
+        },5000);
     });
 });
 
