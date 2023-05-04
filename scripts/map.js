@@ -1,4 +1,5 @@
 // mapboxgl.accessToken = process.env.MAP_BOX_API;
+mapboxgl.accessToken = 'Your API Key';
 
 var map = new mapboxgl.Map({
     container: 'map',
