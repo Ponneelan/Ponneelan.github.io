@@ -106,6 +106,9 @@ body #knowns .technologies .cards .img-box img {
 body #knowns .technologies .cards h3 {
   color: black;
 }
+body #project {
+  padding: 50px 0px;
+}
 body #project .project-list {
   padding: 50px;
 }

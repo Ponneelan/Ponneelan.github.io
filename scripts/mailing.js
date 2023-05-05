@@ -1,25 +1,44 @@
 let form = document.getElementById('msg-form');
 let submit_msg = document.getElementById('submit-msg');
-form.addEventListener('submit', (event) => {
+let smileEmoji = `<i class="bi bi-emoji-smile"></i>`;
+let sadEmoji = `<i class="bi bi-emoji-frown"></i>`;
+
+
+form.addEventListener('submit', (event)=>sentData(event));
+
+function sentData(event) {
     event.preventDefault();
 
     const formData = new FormData(form);
     const data = {};
-
     for (const [key, value] of formData.entries()) {
         data[key] = value;
     }
-    fetch(`http://localhost:3000/sentmail?mail=${data['mail']}&name=${data['name']}&subject=${data['subject']}&message=${data['messge']}`)
-    .then(res => res.json())
-    .then(data => {
-        console.log(data);
-        let emoji = data['code'] == 200 ?`<i class="bi bi-emoji-smile"></i>`: 
-        `<i class="bi bi-emoji-frown"></i>`;
-        submit_msg.innerHTML = data['message']+" "+emoji;
-    }).then(()=>{
-        setTimeout(()=>{
-            submit_msg.innerHTML = ''
-        },5000);
-    });
-});
+    let payload = {
+        mail: data['mail'],
+        name: data['name'],
+        subject: data['subject'],
+        message: data['message']
+    }
+    fetch('http://localhost:3000/getdata', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(payload)
+    })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+            let emoji = data['code'] == 200 ? smileEmoji : sadEmoji;
+            submit_msg.innerHTML = 'Success ' + emoji;
+        }).catch((error) => {
+            submit_msg.innerHTML = "Error " + sadEmoji;
+        })
+        .then(() => {
+            setTimeout(() => {
+                submit_msg.innerHTML = ''
+            }, 10000);
+        });
+}
 
