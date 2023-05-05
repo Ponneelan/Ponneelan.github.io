@@ -152,6 +152,7 @@ body {
 
     #project {
         padding: 50px 0px;
+
         .project-list {
             padding: 50px;
 
@@ -193,35 +194,52 @@ body {
         }
     }
 
+    #github {
+        padding:  110px 20px;
+        .calender {
+            margin: 50px 0px;
+            #contributions-chart {
+                padding: 20px 50px;
+            }
+        }
+    }
+
     #message-form {
+        padding: 65px 20px;
         .msg-row {
             margin-right: 0 !important;
             padding: 50px;
-            .img-div{
-                img{
+
+            .img-div {
+                img {
                     height: 300px;
                     width: 550px;
                 }
             }
-            .form-div{
+
+            .form-div {
                 padding: 0px 75px;
-                #submit-msg{
-                     margin-right:50px;
-                     font-size: 15px;
-                     i{
+
+                #submit-msg {
+                    margin-right: 50px;
+                    font-size: 15px;
+
+                    i {
                         color: darkorchid;
                         font-size: 21px;
-                     }
+                    }
                 }
             }
         }
-        
+
     }
 
     #address {
         padding: 50px;
+
         .address-block {
             margin: 50px 0px;
+
             .address-card {
                 background-color: white;
                 text-align: center;
@@ -254,20 +272,24 @@ body {
                         }
                     }
                 }
-                .social-icons{
-                    a{
+
+                .social-icons {
+                    a {
                         color: gray;
-                        i{
+
+                        i {
                             font-size: 35px;
-                            margin: 0px 10px;                    
+                            margin: 0px 10px;
                         }
-                        i:hover{
+
+                        i:hover {
                             color: blue;
                         }
                     }
                 }
             }
         }
+
         .map-div {
             padding: 0px 30px;
 
@@ -277,11 +299,13 @@ body {
             }
         }
     }
-    footer{
-        .footer-div{
+
+    footer {
+        .footer-div {
             height: 70px;
             background-color: #EDEAFE;
-            p{
+
+            p {
                 margin: 0;
             }
         }

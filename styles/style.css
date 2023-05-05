@@ -138,6 +138,18 @@ body #project .project-list .project-cards .project-desc .project-title {
 body #project .project-list .project-cards .project-desc .project-subtitle {
   padding: 0px 30px;
 }
+body #github {
+  padding: 110px 20px;
+}
+body #github .calender {
+  margin: 50px 0px;
+}
+body #github .calender #contributions-chart {
+  padding: 20px 50px;
+}
+body #message-form {
+  padding: 65px 20px;
+}
 body #message-form .msg-row {
   margin-right: 0 !important;
   padding: 50px;
