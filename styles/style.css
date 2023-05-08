@@ -8,21 +8,27 @@
   margin: 20px 0px;
 }
 
+.ContributionCalendar-label {
+  fill: #898989 !important;
+}
+
 body {
   font-family: "Poppins", sans-serif !important;
   color: #777777;
   font-size: 14px;
   font-weight: 300;
 }
-body #home .cus-nav {
+body .cus-nav {
   position: absolute;
+  z-index: 1000;
   top: 0;
   left: 0;
   right: 0;
   padding: 15px 100px;
-  background-color: transparent !important;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
 }
-body #home .cus-nav .navbar-brand .name {
+body .cus-nav .navbar-brand .name {
   background-color: blue;
   border-radius: 50px;
   height: 40px;
@@ -34,11 +40,11 @@ body #home .cus-nav .navbar-brand .name {
   padding: 1px 14px;
   font-size: 26px;
 }
-body #home .cus-nav .navbar-brand .name::after {
+body .cus-nav .navbar-brand .name::after {
   content: "onneelan";
   color: black;
 }
-body #home .cus-nav .navbar-nav li {
+body .cus-nav .navbar-nav li {
   padding: 0px 20px;
 }
 body #home .main {

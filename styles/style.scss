@@ -9,6 +9,10 @@
         margin: 20px 0px;
     }
 }
+.ContributionCalendar-label{
+    fill: #898989 !important;
+}
+
 
 body {
 
@@ -18,42 +22,43 @@ body {
     color: #777777;
     font-size: 14px;
     font-weight: 300;
+    .cus-nav {
+        position: absolute;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 15px 100px;
+        background-color: transparent ;
+        transition: background-color 0.5s ease;
 
-    #home {
-        .cus-nav {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            padding: 15px 100px;
-            background-color: transparent !important;
-
-            .navbar-brand {
-                .name {
-                    background-color: blue;
-                    border-radius: 50px;
-                    height: 40px;
-                    width: 40px;
-                    align-items: center;
-                    justify-content: center;
-                    color: #fff;
-                    font-weight: bold;
-                    padding: 1px 14px;
-                    font-size: 26px;
-                }
-
-                .name::after {
-                    content: 'onneelan';
-                    color: black;
-                }
+        .navbar-brand {
+            .name {
+                background-color: blue;
+                border-radius: 50px;
+                height: 40px;
+                width: 40px;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                font-weight: bold;
+                padding: 1px 14px;
+                font-size: 26px;
             }
 
-            .navbar-nav {
-                li {
-                    padding: 0px 20px;
-                }
+            .name::after {
+                content: 'onneelan';
+                color: black;
             }
         }
+
+        .navbar-nav {
+            li {
+                padding: 0px 20px;
+            }
+        }
+    }
+    #home {
 
         .main {
             height: 100vh;
