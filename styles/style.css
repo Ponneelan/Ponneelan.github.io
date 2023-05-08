@@ -26,10 +26,9 @@ body .cus-nav {
   right: 0;
   padding: 15px 100px;
   background-color: transparent;
-  transition: background-color 0.5s ease;
 }
 body .cus-nav .navbar-brand .name {
-  background-color: blue;
+  background-color: #7279FC;
   border-radius: 50px;
   height: 40px;
   width: 40px;
@@ -55,7 +54,7 @@ body #home .main .content #hey {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
-  color: #3e64ff;
+  color: #7279FC;
   letter-spacing: 4px;
 }
 body #home .main .content #name {
@@ -63,8 +62,11 @@ body #home .main .content #name {
   font-weight: 800;
   margin: 25px 0px;
 }
+body #home .main .content #desc {
+  font-weight: 600;
+}
 body #home .main .content #desc span {
-  color: #3e64ff;
+  color: #7279FC;
   text-decoration: underline;
 }
 body #about .about-block .about-left .img-block {
@@ -80,6 +82,10 @@ body #about .about-block .about-left .img-block {
 body #about .about-block .about-left .img-block img {
   height: 100%;
   width: 100%;
+  filter: grayscale(1);
+}
+body #about .about-block .about-left .img-block img:hover {
+  filter: grayscale(0);
 }
 body #about .about-block .about-right {
   padding: 100px 120px 150px 80px;
