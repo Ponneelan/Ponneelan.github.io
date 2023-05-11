@@ -147,3 +147,8 @@ code,
         a:hover{
             color: #9ccc65;
         }
+
+        #map {
+            height: 300px;
+            width: 900px;
+        }

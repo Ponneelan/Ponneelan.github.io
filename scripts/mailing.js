@@ -29,6 +29,7 @@ function sentData(event) {
     })
         .then(res => res.json())
         .then(data => {
+            form.reset();
             console.log(data);
             let emoji = data['code'] == 200 ? smileEmoji : sadEmoji;
             submit_msg.innerHTML = 'Success ' + emoji;
