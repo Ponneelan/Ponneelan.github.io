@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/media-query.css">
   <link rel="stylesheet" href="./styles/github-calender.css">
+  <link rel="stylesheet" href="./styles/address-card.css">
   <title>Ponneelan portfolio</title>
 </head>
 
@@ -40,7 +41,8 @@
           <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://drive.google.com/file/d/1mOCXvFi3RZyQkBQWsKYWDPMkUtpCjcgR/view?usp=share_link"
+          <a class="nav-link"
+            href="https://drive.google.com/file/d/1mOCXvFi3RZyQkBQWsKYWDPMkUtpCjcgR/view?usp=share_link"
             target="_blank">Resume</a>
         </li>
         <li class="nav-item">
@@ -189,7 +191,7 @@
     </div>
   </section>
 
-  
+
   <section id="address">
     <div class="col-12 title-block text-center">
       <h1 class="title">Contact Details</h1>
@@ -198,47 +200,99 @@
 
     <div class="col-12 d-lg-flex align-items-center justify-content-center
         address-block">
-      <div class="col-lg-4 col-md-8 col-sm-12 address-card">
-        <h3>Contact Information</h3>
-        .<div class="tiles">
-          <div class="tile d-flex align-items-center justify-content-start">
-            <div class="add-icons">
-              <i class="bi bi-telephone "></i>
-            </div>
-            <div class="add-desc">
-              +91 9629641742
-            </div>
+      <div class="col-lg-5 col-md-8 col-sm-12 address-card">
+        <div class="card">
+          <div class="card-back">
+              <div class="line-numbers">
+                  <div>1</div>
+                  <div>2</div>
+                  <div>3</div>
+                  <div>4</div>
+                  <div>5</div>
+                  <div>6</div>
+                  <div>7</div>
+                  <div>8</div>
+                  <div>9</div>
+              </div>
+              <code>
+                  <span class="variable">const</span>
+                  <span class="function">aboutMe</span>
+                  <span class="operator">=</span>
+                  <span>{</span>
+  
+                  <div class="indent"> 
+                      <span class="property">name</span>
+                      <span class="operator">:</span>
+                      <span class="string">'Ponneelan Ramanathan'</span>
+                      <span>,</span>
+                  </div>
+                  <div class="indent"> 
+                      <span class="property">Role</span>
+                      <span class="operator">:</span>
+                      <span class="string">'Junior Full-Stack Developer'</span>
+                      <span>,</span>
+                  </div>
+                  <div class="indent"> 
+                      <span class="property">contact</span>
+                      <span class="operator">:</span>
+                      <span>{</span>
+                      <div class="indent"> 
+                          <span class="property">mail</span>
+                          <span class="operator">:</span>
+                          <span class="string"><a href="mailto:ponneelan.ramanathan@gmail.com" target="_blank">'ponneelan.ramanathan@gmail.com'</a></span>
+                          <span>,</span>
+                      </div>
+                      <div class="indent"> 
+                        <span class="property">twitter</span>
+                        <span class="operator">:</span>
+                        <span class="string"><a href="http://twitter.com/IamPonneelan" target="_blank">'twitter.com/IamPonneelan'</a></span>
+                        <span>,</span>
+                    </div>
+                      <div class="indent">
+                          <span class="property">website</span>
+                          <span class="operator">:</span>
+                          <span class="string"><a href='http://ponneelan.github.io' target="_blank">'ponneelan.github.io'</a></span>
+                      </div>
+                      <span>}</span>
+                  </div>
+                  <span>}</span>
+              </code>
           </div>
-          <div class="tile d-flex align-items-center justify-content-start">
-            <div class="add-icons">
-              <i class="bi bi-envelope"></i>
-            </div>
-            <div class="add-desc">
-              ponneelan.ramanathan@gmail.com
-            </div>
+          <div class="card-front">
+              <div class="line-numbers">
+                  <div>1</div>
+                  <div>2</div>
+                  <div>3</div>
+                  <div>4</div>
+                  <div>5</div>
+                  <div>6</div>
+                  <div>7</div>
+                  <div>8</div>
+                  <div>9</div>
+              </div>
+              <code>
+                  <span class="variable">this</span>
+                  <span>.</span>
+                  <span class="method">addEventListener</span>
+                  <span>(</span>
+                  <span class="string">'mouseover'</span>
+                  <span>,</span>
+                  <span class="function">() =></span>
+                  <span>{</span>
+                  <div class="indent">
+                      <span class="variable">this</span>
+                      <span>.</span>
+                      <span class="property">flipCard</span>
+                      <span>=</span>
+                      <span class="boolean">true</span>
+                      <span>;</span>
+                  </div>
+                  <span>});</span>
+              </code>
           </div>
-          <div class="tile d-flex align-items-center justify-content-start">
-            <div class="add-icons">
-              <i class="bi bi-geo-alt"></i>
-            </div>
-            <div class="add-desc">
-              Choolaimedu Chennai - 96
-            </div>
-          </div>
-        </div>
-        <div class="display social-icons">
-          <a href="https://twitter.com/IamPonneelan" target="_blank">
-            <i class="bi bi-twitter"></i>
-          </a>
-          <a href="https://github.com/Ponneelan" target="_blank">
-            <i class="bi bi-github"></i>
-          </a>
-          <a href="https://in.linkedin.com/in/ponneelan-ramanathan-0163b3192" target="_blank">
-            <i class="bi bi-linkedin"></i>
-          </a>
-        </div>
       </div>
-      <div class="col-lg-8 col-md-12 col-sm-12 d-flex align-items-start
+      </div>
+      <div class="col-lg-7 col-md-12 col-sm-12 d-flex align-items-start
           justify-content-center map-div">
         <div id="map"></div>
       </div>
@@ -262,4 +316,5 @@
   <script src="./scripts/mailing.js"></script>
   <script src="./scripts/github-calender.js"></script>
 </body>
+
 </html>

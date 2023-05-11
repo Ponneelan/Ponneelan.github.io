@@ -187,14 +187,6 @@ body #address {
 body #address .address-block {
   margin: 50px 0px;
 }
-body #address .address-block .address-card {
-  background-color: white;
-  text-align: center;
-  border: 1px solid;
-  border-radius: 25px;
-  padding: 20px 30px;
-  box-shadow: 1px 3px 15px 1px;
-}
 body #address .address-block .address-card h3 {
   color: black;
   font-size: 25px;
@@ -227,7 +219,7 @@ body #address .map-div {
   padding: 0px 30px;
 }
 body #address .map-div #map {
-  height: 367px;
+  height: 300px;
   width: 900px;
 }
 body footer .footer-div {
