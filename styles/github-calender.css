@@ -1,7 +1,14 @@
-.contrib-column{
-    display: none;
-}
-.float-left{
+.contrib-column {
     display: none;
 }
 
+.float-left {
+    display: none;
+}
+
+.width-full {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 1rem;
+}
