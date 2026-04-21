@@ -27,13 +27,20 @@ jobs:
 
       - run: npm ci
 
+      - name: Compute Vite base path
+        id: base
+        shell: bash
+        run: |
+          if [ -f public/CNAME ] || [ "${{ github.event.repository.name }}" = "${{ github.repository_owner }}.github.io" ]; then
+            echo "base=/" >> "$GITHUB_OUTPUT"
+          else
+            echo "base=/${{ github.event.repository.name }}/" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Build
         run: npm run build
         env:
-          # For a project site (https://<user>.github.io/<repo>/) this injects
-          # the correct base path into Vite. For a user site (repo named
-          # <user>.github.io) this harmlessly resolves to "/".
-          VITE_BASE: ${{ github.event.repository.name == format('{0}.github.io', github.repository_owner) && '/' || format('/{0}/', github.event.repository.name) }}
+          VITE_BASE: ${{ steps.base.outputs.base }}
 
       - uses: actions/upload-pages-artifact@v3
         with:
