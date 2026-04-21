@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(LC_ALL=C grep -oE '\"\\(Architect|Senior|Head|Digital|Strategic|Fintech|Lead|Innovati|Scalable|Intelligent\\)[^\"]{10,200}\"' ./_fetch/mp.js)",
+      "Bash(LC_ALL=C grep -oE '@media[^{]{1,60}\\\\{[^}]{0,200}' ./_fetch/mp.css)",
+      "Bash(LC_ALL=C grep -oE 'max-w-[a-z0-9]+|container[^{]{0,20}\\\\{[^}]{0,200}' ./_fetch/mp.css)"
+    ]
+  }
+}
