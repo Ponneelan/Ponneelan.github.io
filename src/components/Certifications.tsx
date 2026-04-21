@@ -11,10 +11,10 @@ export default function Certifications() {
           data-fade-up
           className="text-sm font-medium uppercase tracking-[0.2em] text-primary"
         >
-          Credentials
+          Education
         </p>
         <h2 data-fade-up className="mt-4 section-title">
-          Certifications & education
+          Education & skills
         </h2>
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {site.certifications.map((c) => {

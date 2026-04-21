@@ -32,7 +32,7 @@ export default function Contact() {
                 className="card-surface flex items-center gap-4 group"
               >
                 <Icon className="size-5 text-primary" />
-                <span className="font-medium group-hover:text-primary transition-colors">
+                <span className="font-medium group-hover:text-primary transition-colors overflow-ellipsis">
                   {l.label}
                 </span>
               </a>

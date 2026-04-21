@@ -11,16 +11,16 @@ export default function Work() {
           data-fade-up
           className="text-sm font-medium uppercase tracking-[0.2em] text-primary"
         >
-          Work
+          Projects
         </p>
         <h2 data-fade-up className="mt-4 section-title">
-          Strategic projects
+          Shipping, end to end
         </h2>
         <p
           data-fade-up
           className="mt-6 max-w-3xl text-lg text-muted-foreground"
         >
-          Projects that transformed products, teams, and business outcomes.
+          Banking, payments, and fintech products delivered front-to-back — UI, APIs, database, and cloud.
         </p>
         <div className="mt-16 space-y-6">
           {site.work.map((w) => (

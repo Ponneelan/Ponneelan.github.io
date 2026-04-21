@@ -11,13 +11,13 @@ export default function Stats() {
           data-fade-up
           className="text-sm font-medium uppercase tracking-[0.2em] text-primary"
         >
-          Work impact
+          Impact
         </p>
         <h2
           data-fade-up
           className="mt-4 section-title text-background"
         >
-          Measurable results
+          Measured, shipped
         </h2>
         <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {site.stats.map((s) => (

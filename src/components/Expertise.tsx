@@ -14,13 +14,13 @@ export default function Expertise() {
           Expertise
         </p>
         <h2 data-fade-up className="mt-4 section-title">
-          Core competencies
+          What I work on
         </h2>
         <p
           data-fade-up
           className="mt-6 max-w-3xl text-lg text-muted-foreground"
         >
-          Capabilities driving digital excellence in fintech and beyond.
+          Building for banking, payments, and fintech — UI to database, web to mobile, dev to production.
         </p>
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {site.expertise.map((item) => {
