@@ -70,7 +70,7 @@
     @apply rounded-lg border border-border bg-card p-6 transition-all hover:border-primary hover:shadow-lg hover:shadow-primary/10;
   }
   .overflow-ellipsis {
-    width: 200px;             /* A fixed or constrained width is necessary */
+    width: max-content;             /* A fixed or constrained width is necessary */
     white-space: nowrap;      /* Keep text on a single line */
     overflow: hidden;         /* Hide the text that goes beyond the 200px */
     text-overflow: ellipsis;  /* Add the "..." at the end of the line */
