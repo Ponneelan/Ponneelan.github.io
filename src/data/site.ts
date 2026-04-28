@@ -46,7 +46,6 @@ export const site = {
       "C# / ASP.NET",
       "AI-Assisted Development",
       "Android (Ionic)",
-      "TypeScript",
       "SQL Server",
       "Azure",
       "UPI Payments",
