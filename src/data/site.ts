@@ -122,7 +122,7 @@ export const site = {
   ],
 
   stats: [
-    { label: "Daily users in production", value: "10K+" },
+    { label: "Daily transactions in production", value: "25K+" },
     { label: "Fewer redundant API calls", value: "~40%" },
     { label: "Reduction in DB load", value: "~30%" },
     { label: "Faster incident resolution", value: "~40%" },
@@ -137,17 +137,17 @@ export const site = {
     {
       icon: Braces,
       title: "Languages",
-      body: "TypeScript, JavaScript, C#, Python, SQL.",
+      body: "JavaScript, C#, Python, TypeScript, SQL.",
     },
     {
       icon: Library,
       title: "Frameworks & Libraries",
-      body: "Angular, ASP.NET Web API, Node.js, NestJS, Ionic.",
+      body: "Angular, ASP.NET, Node.js, NestJS, Ionic.",
     },
     {
       icon: Wrench,
       title: "Tools & Platforms",
-      body: "Visual Studio, VS Code, Cursor, Git, Postman, Swagger.",
+      body: "Claude Code, Codex, Cursor, Antigravity ,Visual Studio, VS Code, Git, Postman, Swagger.",
     },
   ] satisfies { icon: LucideIcon; title: string; body: string }[],
 
@@ -172,7 +172,7 @@ export const site = {
       },
       {
         icon: Phone,
-        label: "+91 96296 41742",
+        label: "+91 96-296-41-742",
         href: "tel:+919629641742",
       },
     ] satisfies { icon: LucideIcon; label: string; href: string }[],
