@@ -18,6 +18,7 @@ import {
 
 export const site = {
   name: "Ponneelan R",
+  nameIconText : "𑀧𑁄𑀦𑀦𑀻𑀮𑀦",
   role: "Software Engineer — Full Stack",
   location: "Chennai, Tamil Nadu, India",
   email: "ponneelan.ramanathan@gmail.com",

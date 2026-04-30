@@ -24,7 +24,7 @@ export default function Navbar() {
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:px-8">
         <a href="#home" className="font-bold tracking-tight">
-          {site.name.split(" ")[0]}
+          {site.nameIconText}
           <span className="text-primary">.</span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm">
