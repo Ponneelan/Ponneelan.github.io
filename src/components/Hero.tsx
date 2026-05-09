@@ -23,11 +23,17 @@ export default function Hero() {
           data-fade-up
           className="mt-6 section-title max-w-5xl text-foreground"
         >
-          {site.hero.headline}
+          Hi, I'm <span className="text-primary">{site.name}</span>.
         </h1>
         <p
           data-fade-up
-          className="mt-8 max-w-3xl text-lg md:text-2xl text-foreground/80 leading-relaxed"
+          className="mt-8 max-w-4xl text-2xl md:text-4xl font-semibold text-foreground/90 leading-tight tracking-tight"
+        >
+          {site.hero.headline}
+        </p>
+        <p
+          data-fade-up
+          className="mt-6 max-w-3xl text-base md:text-lg text-foreground/70 leading-relaxed"
         >
           {site.hero.subHeadline}
         </p>
