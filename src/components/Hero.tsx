@@ -17,7 +17,7 @@ export default function Hero() {
           data-fade-up
           className="text-sm font-medium uppercase tracking-[0.2em] text-primary"
         >
-          {site.role}
+          {site.name} - {site.role}
         </p>
         <h1
           data-fade-up
@@ -35,7 +35,7 @@ export default function Hero() {
           <a href="#work" className="btn-primary">
             View Work <ArrowRight className="size-4" />
           </a>
-          <a href={site.resumeUrl} className="btn-outline">
+          <a href={site.resumeUrl} target="_blank" className="btn-outline">
             <FileDown className="size-4" /> Download Resume
           </a>
         </div>
